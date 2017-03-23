@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from mkacz91.github.io/Triangulations/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Mar 2017 02:03:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Ralph Waldo Emerson​</title>
+  <script src="lib/js/jquery-1.11.2.min.js"></script>
+  <script src="lib/js/jcanvas.min.js"></script>
+  <script src="lib/js/queue.min.js"></script>
+  <script src="js/geometry.js"></script>
+  <script src="js/graph.js"></script>
+  <script src="js/triangulate.js"></script>
+  <script src="js/sim.js"></script>
+  <script src="js/index.js"></script>
+  <script src="data/banana.js"></script>
+  <script src="data/key.js"></script>
+  <script src="data/ty.js"></script>
+  <script src="data/sheet.js"></script>
+  <script src="data/guitar.js"></script>
+  <script src="js/steps.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/steps.css" />
+</head>
+<body>
+<div id="impress">
+
+<div id="step-title" class="step orange" data-x="-1000" data-y="0" data-z="1000"
+     data-rotate-x="180">
+  <h1 class="title">Ralph Waldo Emerson​</h1>
+  <p class="author">Royce Whitaker</p>
+  <p class=institution>
+  </p>
+</div>
+
+<div id="step-overview" class="step orange"
+  data-x="0" data-y="-500" data-z="-1000">
+  <h1 class="center-text">Overview</h1>
+  <img class="center-block" src='emerson.jpg'></img>
+</div>
+
+<div id="step-overview-2" class="step orange"
+  data-x="0" data-y="0" data-z="0">
+  <h1 class="center-text">Overview</h1>
+  <h3>* One of America's <span class="flip">greatest philosophers</span></h3>
+  <h3>* Lived from 1803 - 1882</h3>
+  <h3>* Essayist, Lecturer, & Poet</h3>
+  <h3>* Lead the <span class="flip">transcendentalist</span> movement</h3>
+</div>
+
+<div id="step-random-fact" class="step orange"
+  data-x="600" data-y="0" data-z="0"
+  data-rotate-z="-90">
+  <h1 class="center-text">-=1803=-</h1>
+  <h1 class="center-text">1st horses arrive in Hawaii</h1>
+  <h1 class="center-text">Ohio becomes 17th state</h1>
+  <h1 class="center-text">1st public library opens</h1>
+
+
+</div>
+
+<div id="step-random-fact-2" class="step orange"
+  data-x="1100" data-y="0" data-z="400"
+  data-rotate-y="-50">
+  <h1>Lets get serious<h2>
+</div>
+
+<div id="step-random-fact-3" class="step orange"
+  data-x="1700" data-y="-200" data-z="800"
+  data-rotate-y="-20" data-rotate-z="-20">
+  In 1882,
+  <h1>Jesse James is killed!</h1>
+</div>
+
+<div id="step-bio" class="step orange"
+  data-x="2500" data-y="-100" data-z="800"
+  data-rotate-y="20" data-rotate-z="20">
+  <h1>Biography</h1>
+</div>
+
+<div id="step-religion" class="step red center-text"
+  data-x="3200" data-y="-200" data-z="1000"
+  data-rotate-z="-20">
+  <h1>Parents very religious</h1>
+</div>
+
+<div id="step-english" class="step white sim"
+  data-x="4000" data-y="0" data-z="0">
+  Well-known english family
+</div>
+
+<div id="step-8" class="step white sim"
+  data-x="5000" data-y="0" data-z="0">
+  Father dies at age 8 <br> Raised by mother & aunt
+</div>
+
+<div id="step-harvard" class="step white sim"
+  data-x="6000" data-y="0" data-z="0">
+  Gets accepted into <span class="flip">Harvard</span>
+</div>
+
+<div id="step-sim-4" class="step white sim"
+  data-x="7000" data-y="0" data-z="0">
+  <canvas class="center-block" width="800" height="600"></canvas>
+</div>
+
+<div id="step-graph" class="step white sim"
+  data-x="8000" data-y="0" data-z="0">
+  That was a very simple bannana graph
+</div>
+
+<div id="step-bigger" class="step white sim"
+  data-x="9000" data-y="0" data-z="0">
+  lets <em>move</em> on to <b>bigger</b> and better things
+</div>
+
+<div id="step-sim-7" class="step orange"
+  data-x="6500" data-y="-1900" data-scale="6">
+  <canvas width="800" height="600"></canvas>
+</div>
+
+<div id="step-girls-school" class="step orange"
+  data-x="3500" data-y="600" data-z="0" data-rotate-z="-90">
+  He works with his brother to start an all girls school.
+</div>
+
+<div id="step-harvard-divinity" class="step gray"
+  data-x="3490" data-y="265" data-scale="0.05" data-rotate-z="-90">
+  He then goes to <span class="flip">Harvard Divinity School</span> & graduates!<br>
+  <center><img src="https://upload.wikimedia.org/wikipedia/en/4/46/Harvard-div.png"></img></center>
+</div>
+
+<div id="step-pastor" class="step orange"
+  data-x="3650" data-y="600" data-z="0" data-rotate-z="-90">
+  After college, he becomes a Junior Pastor for the 2nd church of Boston
+</div>
+
+<div id="step-almost-half-way" class="step orange"
+  data-x="3800" data-y="600" data-z="0" data-rotate-z="-90">
+  Almost half way there.
+  <img src="giphy.gif"></img>
+</div>
+
+<div id="step-later-life" class="step green"
+  data-x="4000" data-y="600" data-z="0" data-rotate-z="-90">
+  <h1>Later Life</h1>
+  <p>
+    The church was very beneficial. Allowed growth as a writer
+  </p>
+</div>
+
+<div id="step-married" class="step green"
+  data-x="4500" data-y="600" data-z="0" data-rotate-z="-90">
+  <h1>Married!</h1>
+  <p>
+    <b>Ellen Louisa Tucker</b><br>
+<img src="tucker.jpg"></img><br>
+	Died two years later to tuberculosis. RIP
+  </p>
+</div>
+
+<div id="step-europe" class="step green"
+  data-x="4900" data-y="600" data-z="0" data-rotate-z="-90">
+  Leaves everything for Europe. Travels around but comes back to US in 1835
+</div>
+
+<div id="step-today-in-1835" class="step green"
+  data-x="5150" data-y="600" data-z="0" data-rotate-z="-90">
+  <h1>-=1835=-</h1>
+  The United States national debt is 0 for the first and only time.<br>
+  Andrew Jackson el presidente
+</div>
+
+<div id="step-married-again" class="step green"
+  data-x="5700" data-y="600" data-z="0" data-rotate-z="-90">
+    <h1>Married! Again!</h1>
+	<b>Lydia Jackson</b>
+  <div>
+    <img src="lydia.jpg"></img>
+  </div>
+</div>
+
+<div id="step-growth" class="step purple"
+  data-x="6400" data-y="600" data-z="0" data-rotate-x="90">
+  <h1>Becomes an incredible writer and lecturer</h1>
+  <p>Works with other other famous people such as Henry David Thoreau</p>
+</div>
+
+<div id="step-magazine" class="step purple"
+  data-x="6400" data-y="600" data-z="800" data-rotate-x="90">
+  <p>
+    Starts a Transcendentalist Magazine called... The Dial
+  </p>
+  <img width=250 src="dial.jpg"></img>
+</div>
+
+<div id="step-essay" class="step purple"
+  data-x="6400" data-y="600" data-z="1600" data-rotate-x="90">
+  <h1>Yay, Essay Series!</h1>
+  <p>
+    Drops his first fire essay series in 1841
+	Some titles include: <b>Self-Reliance</b>, Spiritual Laws, Friendship, <b>The Over-Soul</b>, Intellect
+  </p>
+  <p>
+    Second essay series 5 years later.
+  </p>
+</div>
+
+<div id="step-later-later-life" class="step purple"
+  data-x="6400" data-y="600" data-z="2400" data-rotate-x="90">
+  <h1 class="center-text">Later Later Life</h1>
+  * Lectured against slavery <br>
+  * Continued writing & giving lectures
+</div>
+
+<div id="step-home" class="step white"
+  data-x="6393" data-y="600" data-z="2365" data-rotate-x="90"
+  data-scale="0.01">
+  <h1>RIP Home</h1>
+  <p>
+    House burned down but his friends sent him on vacation and rebuilt it for him.
+  </p>
+  <p>
+    Lost his memory but is very thankful and appreciative.
+  </p>
+</div>
+
+<div id="step-simple-triangulation-bad" class="step white"
+  data-x="6393" data-y="600" data-z="2373" data-rotate-x="90"
+  data-scale="0.01">
+  <h1>The Wrong Way</h1>
+  <canvas class="center-block" width="400" height="400"></canvas>
+  <p>
+    Dont triangulate like this.
+  </p>
+</div>
+
+<div id="step-death" class="step blue"
+  data-x="6393" data-y="650" data-z="2373" data-rotate-x="90"
+  data-scale="0.1">
+  <h1>Death</h1>
+  <p>
+    Emerson died in <b>1882</b> due to Pheumonia
+	<img src="death.jpg"></img>
+  </p>
+</div>
+
+<div id="step-core-value" class="step blue"
+  data-x="6393" data-y="700" data-z="2373" data-rotate-x="90">
+  <center><h1>His Core Values</h1></center>
+</div>
+
+<div id="step-self-reliance" class="step blue"
+  data-x="6393" data-y="700" data-z="2373">
+  <center><h1>Self-reliance</h1></center>
+</div>
+
+<div id="step-visibility" class="step blue"
+  data-x="6393" data-y="700" data-z="0">
+  <p>
+    <b>Definition.</b> reliance on one's own efforts and abilities
+  </p>
+  <p>
+    Has become modern individualism
+  </p>
+</div>
+
+<div id="step-cdt" class="step blue"
+  data-x="6393" data-y="0" data-z="0">
+  <p>
+    Emerson urged readers to follow their <span class="flip">individual will</span> instead of conforming to social expectations
+  </p>
+  <p>
+  Emphasized following one's own voice rather than an intemediary Ex. church
+  </p>
+</div>
+
+<div id="step-oversoul" class="step blue"
+  data-x="5500" data-y="0" data-z="0" data-rotate-y="50">
+	<center><h1> OverSoul</h1></center>
+</div>
+
+<div id="step-delaunay-quality" class="step blue"
+  data-x="4700" data-y="0" data-z="0">
+  <canvas class="center-block" width="400" height="400"></canvas>
+  <p>
+    Everyone has an oversoul and it unites <span class="flip">every</span> human being.
+	Said that this is ourt 'common nature'
+	<br>
+	<br>
+	Correct triangulation ^^
+  </p>
+</div>
+
+<div id="step-edge-quad" class="step blue"
+  data-x="3700" data-y="0" data-z="0" data-rotate-y="0">
+  <p>
+	Allows us to be individual but be connected/united at the same time.
+  </p>
+</div>
+
+<div id="step-nature" class="step green"
+  data-x="3800" data-y="150" data-z="0" data-rotate-y="0" data-rotate-z="90">
+  <h1>Nature</h1>
+  <p>
+     * Strong connection between humans + natural world<br>
+	 * As society becomes mo' complex -> humans become more disconnected & discontent w/ their lives
+  </p>
+  <center><img width=250 src="leaf.png"></img></center>
+</div>
+
+<div id="step-nature-two" class="step green"
+  data-x="3700" data-y="0" data-z="0" data-rotate-x="180">
+  <p>
+    * Nature provides our understanding, relationship between god + man, and supplies our spirit
+  </p>
+</div>
+
+<div id="step-ty" class="step purple"
+  data-x="0" data-y="2800" data-z="800" data-rotate-x="90"
+  data-rotate-z="10">
+  <canvas class="center-block" width="900" height="800"></canvas>
+</div>
+
+<!-- <div id="step-flip-2" class="step red"
+  data-x="2500" data-y="0" data-z="0" data-rotate-y="180">
+  <p>
+    The diagonal is flipped as soon as it gets reversed. This always yields
+    a Dalaunay triangulated quad.
+  </p>
+  <canvas class="center-block" width="500" height="500"></canvas>
+</div>
+
+<div id="step-flip-algo-intro" class="step red"
+  data-x="1500" data-y="0" data-z="0" data-rotate-x="180">
+  We have come to a very simple algorithm that transforms any
+  triangulation into a Delaunay triangulation.
+</div>
+
+<div id="step-flip-algo" class="step red"
+  data-x="500" data-y="0" data-z="0">
+  <h1>The <span class="flip">Flip</span> Algorithm</h1>
+  <p>
+    <b>Algorithm.</b> As long as there are reversed edges, pick one and flip it.
+  </p>
+</div>
+
+<div id="step-flip-algo-theorem" class="step red"
+  data-x="500" data-y="300" data-z="0">
+  <b>Theorem.</b> If no edge in a triangulation is reversed, the triangulation
+  is (constrained) Delaunay.
+</div>
+
+<div id="step-flip-algo-proof-1" class="step red"
+  data-x="500" data-y="750" data-z="0">
+  <p>
+    <b>Proof.</b> Suppose there is a triangle <i>abc</i> and outside <i>ac</i>
+    a point <i>p</i> that is within the circumcircle. Assume &ang;<i>cpa</i> is
+    the greatest among all such angles.
+  </p>
+</div>
+
+<div id="step-flip-algo-proof-2" class="step red"
+  data-x="500" data-y="1020" data-z="0">
+  <div>
+    <canvas class="step-1" width="500" height="500"></canvas>
+    <canvas class="step-2" width="500" height="500"></canvas>
+    <i class="step-1 a">a</i>
+    <i class="step-1 b">b</i>
+    <i class="step-1 c">c</i>
+    <i class="step-2 d">d</i>
+    <i class="step-1 p">p</i>
+  </div>
+  <p>
+    But consider the adjecent triangle <i>cda</i>. Its circumcircle also
+    contains <i>p</i> and the angle &ang;<i>cpd</i> is greater than
+    &ang;<i>cpa</i>!
+  </p>
+</div>
+
+<div id="step-flip-algo-proof-3" class="step red"
+  data-x="500" data-y="1500" data-z="0">
+  <p>
+    In order for this proof to work in constrained setting, one has to
+    notice, that if <i>p</i> is visible to the triangle <i>abc</i>, it must also
+    be visible to <i>cda</i>.
+  </p>
+</div>
+
+<div id="step-flip-algo-problem-1" class="step gray"
+  data-x="500" data-y="2300" data-z="0" data-rotate-z="90">
+  But there is a problem&hellip;
+</div>
+
+<div id="step-flip-algo-problem-2" class="step gray"
+  data-x="500" data-y="3000" data-z="0" data-rotate-z="90">
+  Fixing one edge may break another one, so how do we know the algorithm
+  terminates?
+</div>
+
+<div id="step-flip-algo-angles-1" class="step red"
+  data-x="500" data-y="4000" data-z="0">
+  <b>Definition.</b> An <em>angle sequence</em> of a triangulation is the nondecreasing sequence of the angles of all its triangles.
+</div>
+
+<div id="step-flip-algo-angles-2" class="step red"
+  data-x="500" data-y="4450" data-z="0">
+  <p>
+    <b>Fact.</b> By simple geometric observation, flipping a reversed edge
+    increases the smallest angle of the two triangles making up the enclosing
+    quad.
+  </p>
+  <div>
+    <canvas class="center-block" width="800" height="400"></canvas>
+    <span class="alpha">&alpha;</span>
+    <span class="beta">&beta;</span>
+    <span class="alphaltbeta">&alpha; &lt; &beta;</span>
+  </div>
+</div>
+
+<div id="step-flip-algo-terminates" class="step red"
+  data-x="500" data-y="5000" data-z="0">
+  <p>
+    <b>Conclusion.</b> Every iteration of the Flip algorithm increases the angle sequence of the triangulation. Therefore, the process must terminate.
+  </p>
+</div>
+
+<div id="step-flip-algo-complexity" class="step white"
+  data-x="500" data-y="4600" data-z="-1000" data-scale="0.1">
+  <h1>Meh&hellip;</h1>
+  <p>
+    It can actually be shown that up to <i>O(n<sup>2</sup>)</i> iterations are
+    needed to reach a Delaunay triangulation.
+  </p>
+  <p>
+    Methods running in <i>O(n</i>log<i>n)</i> are known.
+</div>
+
+<div id="step-delaunay-maxmin" class="step red"
+  data-x="500" data-y="5000" data-z="0">
+  <h1>The MaxMin Angle Property</h1>
+  <p>A very nice property of Delaunay triangulation follows.</p>
+  <p>
+    <b>Theorem.</b> Among all triangulations, the Delaunay triangulation has
+    the greatest angle sequence. In particular, it has the greatest minimum
+    angle.
+  </p>
+</div>
+
+<div id="step-flip-visu" class="step red"
+  data-x="500" data-y="6000" data-z="0">
+  <h1 class="center-text">The <span class="flip">Flip</span> Algorithm</h1>
+  <canvas class="center-block" width="800" height="600"></canvas>
+</div>
+
+<div id="step-dalaunay-sadly-1" class="step gray"
+  data-x="500" data-y="6000" data-z="0" data-rotate-y="360">
+  Sadly, in our dummy simulation, the banana was already Delaunay and still had
+  small angles.
+</div>
+
+<div id="step-dalaunay-sadly-2" class="step gray"
+  data-x="500" data-y="6000" data-z="0">
+  This is as good as we can get, restricting ourselves to the input points.
+</div>
+
+<div id="step-ruppert-intro-1" class="step green"
+  data-x="0" data-y="0" data-z="0">
+  <p>
+    We can allow inserting points into our shape, thus making better
+    triangulations possible.
+  </p>
+</div>
+
+<div id="step-ruppert-intro-2" class="step green"
+  data-x="0" data-y="230" data-z="0">
+  <div>
+    <canvas class="center-block base" width="400px" height="400px"></canvas>
+    <canvas class="center-block steiner" width="400px" height="400px"></canvas>
+  </div>
+  <p>
+    The additional points are called <em>Steiner points</em>.
+  </p>
+</div>
+
+<div id="step-ruppert-intro-3" class="step green"
+  data-x="0" data-y="800" data-z="0">
+  <h1>Ruppert's Algorithm</h1>
+  <p>
+    Next up we will show an algorithm proposed by <em>Jim Ruppert</em> that
+    produces triangulations without certain types of triangles.
+  </p>
+</div>
+
+<div id="step-ruppert-intro-4" class="step green"
+  data-x="0" data-y="1200" data-z="0">
+  It works by repediately removing undesired elements by inserting Steiner
+  points. The Delaunay property is then maintained with appropriate flips.
+</div>
+
+<div id="step-encroached-edge" class="step green"
+  data-x="-400" data-y="1800" data-z="0" data-rotate-y="-20">
+  <h1>Encroached Edge</h1>
+  <p>
+    <b>Definition.</b> We say an <em>input</em> edge is <em>encroached</em> if
+    it contains a visible point in its <em>diametral circle</em>.
+  </p>
+</div>
+
+<div id="step-encroached-edge-sol" class="step green"
+  data-x="-400" data-y="2050" data-z="0" data-rotate-y="-20">
+  <div>
+    <canvas class="base" width="400px" height="400px"></canvas>
+    <canvas class="step-1" width="400px" height="400px"></canvas>
+    <canvas class="step-2" width="400px" height="400px"></canvas>
+  </div>
+  <p>
+    Such input edge is divided into halves, that may, or may not be encroached.
+  </p>
+</div>
+
+<div id="step-bad-tri" class="step green"
+  data-x="400" data-y="1700" data-z="0" data-rotate-y="20">
+  <h1>Bad Triangle</h1>
+  <p>
+    <b>Definition.</b> A triangle is considered <em>bad</em> if it doesn't
+    fulfill constraints defined by the user.
+  </p>
+  <p>
+    The algorithm supports imposing a lower bound for angles, or an upper
+    bound for triangle area.
+  </p>
+</div>
+
+<div id="step-bad-tri-sol-1" class="step green"
+  data-x="400" data-y="2400" data-z="0" data-rotate-y="20">
+  <p>
+    In this case, a Steiner point is inserted in the circumcenter of the bad
+    triangle.
+  </p>
+</div>
+
+<div id="step-bad-tri-sol-2" class="step green"
+  data-x="400" data-y="2580" data-z="0" data-rotate-y="20">
+  <div>
+    <canvas class="step-1" width="400px" height="400px"></canvas>
+    <canvas class="step-2" width="400px" height="400px"></canvas>
+    <canvas class="base" width="400px" height="400px"></canvas>
+  </div>
+  <p>
+    The Delaunay property ensures the triangle is removed.
+  </p>
+</div>
+
+<div id="step-ruppert-except" class="step green"
+  data-x="0" data-y="3000" data-z="0">
+  <p>
+    The Steiner point is not inserted for the bad triangle if it would
+    encroach any input edge. In such case, the would-be-encroached edges
+    are split instead.
+  </p>
+</div>
+
+<div id="step-ruppert-prio" class="step green"
+  data-x="0" data-y="3300" data-z="0">
+  <p>
+    Also, we handle bad triangles only when there are no more encroached
+    input edges.
+  </p>
+</div>
+
+<div id="step-ruppert-visu" class="step green"
+  data-x="200" data-y="3900" data-z="100" data-rotate-x="-40"
+  data-rotate-z="-20">
+  <h1 class="center-text">Ruppert's Algorithm</h1>
+  <p class="center-text">
+    Example:
+    <select>
+      <option>Key</option>
+      <option>Guitar</option>
+      <option>Sheet</option>
+    </select>
+    Min. angle: <span class="angle">0</span>&deg;, Steiner points: <span class="steiner">0</span>
+  </p>
+  <canvas class="center-block" width="900" height="600"></canvas>
+</div> -->
+
+<!-- <div id="step-ty" class="step purple"
+  data-x="0" data-y="2800" data-z="800" data-rotate-x="90"
+  data-rotate-z="10">
+  <canvas class="center-block" width="900" height="800"></canvas>
+</div> -->
+
+<script src="lib/js/impress.js"></script>
+</body>
+
+</html>
